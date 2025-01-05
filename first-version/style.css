@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+
+.title {
+    text-decoration-line: underline;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title0 {
+    font-size: 19rem;
+    margin-bottom: -40px;
+    margin-left: 7rem;
+    text-shadow: rgb(0, 13, 29) 0px 10px 10px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: #FDFFFC;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #001d5c;
+    font-size: 1.8rem;
+}
+
+h3 {
+    color: #000f30;
+}
+
+
+p {
+    color: #FDFFFC;
+    font-size: 1rem;
+}
+
+form {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+
+
+
+header {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 100vw;
+    height: auto;
+    background-color: #011627;
+    text-align: center;
+    text-align: left;
+    padding-bottom: 2rem;
+    box-shadow: rgb(2, 0, 22) 1px 1px 100px;
+    ;
+}
+
+footer {
+    width: 100%;
+    background-color: #011627;
+    padding: 20px;
+    text-align: center;
+}
+
+.footertext{
+    color: white;
+}
+
+section,
+aside {
+    margin: 20px;
+    padding: 60px;
+}
+
+img {
+    margin: 0 auto;
+}
+
+a {
+    color: #ff6ab5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff0080;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td{
+    border: none;
+    padding: 10px;
+    text-align: left;
+    color: #000000;
+    font-size: 1.7rem;
+}
+
+th {
+    color: #000000;
+}
+
+.tablestyle{
+    text-align: center;
+}
+
+
+body {
+    background: linear-gradient(#011627, #000327);
+    text-align: center;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    align-content: left;
+    text-align: left;
+}
+
+section {
+    width: 80%;
+}
+
+p {
+    font-size: 23px;
+    color: #000000;
+}
+
+.card {
+    height: auto;
+    width: auto;
+    padding: 7%;
+    padding-bottom: 2rem;
+    background-color: #dfdfdf;
+    border-radius: 60px;
+    filter: drop-shadow(0 0.3rem 0.2rem black);
+    overflow: hidden;
+    /* Ensures the topbar stays inside the rounded card */
+    position: relative;
+    margin-bottom: -2rem;
+}
+
+.infotext{
+    color: white;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4.5rem;
+}
+
+.topbar {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    /* Ensure the topbar stays at the top of the card */
+    left: 0;
+    height: 3.2rem;
+    width: 100%;
+    /* Makes the topbar span the width of the card */
+    background-color: #004bbd;
+    border-top-left-radius: 60px;
+    /* Matches the card's border radius */
+    border-top-right-radius: 60px;
+    /* Matches the card's border radius */
+}
+
+.formulario{
+    text-align: center;
+}
+.forminfo{
+    color: white;
+}
+
+textarea,input{
+    border-radius: 4px;
+    border-style:groove;
+    background-color: rgb(0, 21, 49);
+    color: white;
+}
+button{
+    padding: 1rem;
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border-color: none;
+}
+
+.mainface {
+    position: absolute;
+    width: 662px;
+    height: auto;
+    margin-left: 42px;
+    margin: 36px;
+    right: -40px;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+.rickenbackerImage {
+    position: absolute;
+    /* Permite mover a imagem relativa ao contêiner */
+    top: 054rem;
+    right: -31rem;
+    /* Move a imagem para fora da tela pela metade (ajuste conforme necessário) */
+    width: 60rem;
+    height: auto;
+    filter: drop-shadow(0 0 0.75rem rgb(22, 22, 22));
+    transform: rotate(-20deg);
+}
+
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+
+    section {
+        width: 100%;
+    }
+}
